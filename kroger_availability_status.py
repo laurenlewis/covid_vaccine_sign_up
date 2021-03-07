@@ -32,7 +32,7 @@ while True:
     if utah_availability_status.find(vaccine_is_available) != -1:
         print("we found a vaccine!")
         time.sleep(6)
-        print('Signing you up now!)
+        print('Signing you up now!')
         options = webdriver.ChromeOptions() 
         options.add_argument("start-maximized")
         options.add_experimental_option("excludeSwitches", ["enable-automation"])
